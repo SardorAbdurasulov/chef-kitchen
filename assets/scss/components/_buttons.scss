@@ -1,0 +1,16 @@
+.button {
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 120%;
+  padding: 18px 27px;
+  border-radius: 32px;
+  background-color: var(--second-color);
+  transition: 0.3s all ease;
+
+  &:hover {
+    background-color: #fff;
+    color: var(--first-color);
+  }
+}

@@ -1,0 +1,58 @@
+.home {
+  padding: 47px 0 95px 0;
+  overflow: hidden;
+
+  &__container {
+    display: flex;
+    position: relative;
+    background-color: var(--first-color);
+    border-radius: 55px;
+    padding-left: 100px;
+  }
+  &__data {
+    width: 400px;
+    padding: 54px 0;
+  }
+  &__title {
+    color: #fff;
+    font-size: var(--biggest-font-size);
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  &__description {
+    color: #000;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 59px;
+    margin-bottom: 20px;
+  }
+  &__images {
+    position: relative;
+  }
+  &__img {
+    position: absolute;
+
+    &--leaf {
+      top: -120px;
+      left: -100px;
+    }
+    &--mint {
+      bottom: -60px;
+      left: 0;
+    }
+    &--cumin {
+      bottom: -158px;
+      right: -800px;
+    }
+    &--home {
+      left: -65px;
+    }
+    &--leaf-2 {
+      bottom: -165px;
+      left: -100px;
+      transform: rotate(265deg);
+    }
+  }
+}

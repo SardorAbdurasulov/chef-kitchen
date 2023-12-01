@@ -4,9 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title>Chef Kitchen Food Delivery</title>
   </head>
   <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <div class="nav__left">
+            <a href="index.html" class="nav__logo">
+              <img src="assets/images/icons/header-logo.svg" alt="header logo">
+            </a>
 
+            <div class="nav__toggle" id="nav-toggle">
+              <img src="assets/images/icons/menu.svg" alt="toggle menu">
+            </div>
+          </div>
+
+          <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link nav__link-active">Menu</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Delivery</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">FAQ</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Contacts</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="nav__right">
+            <a href="tel:591-902-882" class="nav__phone">
+              <img src="assets/images/icons/phone.svg" alt="phone">
+              <p>591 902 883</p>
+            </a>
+
+            <div class="nav__language" id="nav-language">
+              <span>EN</span>
+              <img src="assets/images/icons/bottom-arrow.svg" alt="arrow">
+
+              <ul class="nav__language-list" id="language-list">
+                <li class="nav__language-item" value="en">EN</li>
+                <li class="nav__language-item" value="ru">RU</li>
+                <li class="nav__language-item" value="uz">UZ</li>
+              </ul>
+            </div>
+
+            <a href="#" class="nav__signin">
+              <img src="assets/images/icons/signin.svg" alt="man">
+              <p>Sign In</p>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="home">
+        <div class="container">
+          <div class="home__container">
+            <div class="home__data">
+              <h1 class="home__title">
+                Your personal cook
+              </h1>
+              <p class="home__description">
+                The balanced diet for every day
+              </p>
+              <a href="#" class="button">
+                Make your choice
+              </a>
+            </div>
+
+            <div class="home__images">
+              <img src="assets/images/leaf-1.png" alt="home img" class="home__img home__img--leaf">
+              <img src="assets/images/leaf-2.png" alt="home img" class="home__img home__img--mint">
+              <img src="assets/images/home.png" alt="home img" class="home__img home__img--home">
+              <img src="assets/images/cumin.png" alt="home img" class="home__img home__img--cumin">
+            </div>
+
+            <img src="assets/images/leaf-1.png" alt="home img" class="home__img home__img--leaf-2">
+          </div>
+        </div>
+
+      </section>
+    </main>
+
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
