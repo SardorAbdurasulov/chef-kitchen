@@ -1,0 +1,116 @@
+.menu {
+  h2 {
+    margin-bottom: 26px;
+  }
+
+  &__types {
+    width: 1250px;
+    display: flex;
+    align-items: center;
+    column-gap: 27px;
+    margin-bottom: 26px;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  &__type-item {
+    padding: 6px 26px;
+    background-color: var(--menu-color);
+    border-radius: 10px;
+    text-align: center;
+    color: #6a6a6a;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+    &:hover {
+      background-color: var(--second-color);
+      color: #fff;
+    }
+
+    &--active {
+      background-color: var(--first-color);
+      color: #fff;
+      text-decoration-line: underline;
+    }
+  }
+  &__type-subtitle {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  &__type-calories {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  &__box {
+    background-color: var(--first-color);
+    padding: 20px;
+    border-radius: 55px;
+  }
+  &__weeks {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  &__week-list {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+  }
+  &__week {
+    width: 55px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #302929;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    border-radius: 5px;
+    background-color: var(--menu-color);
+    padding: 5px 8px;
+
+    &--active {
+      background-color: #fff;
+    }
+  }
+  &__choice-week {
+    display: flex;
+    // align-items: center;
+    margin-bottom: 16px;
+    text-align: center;
+    color: #fff;
+  }
+  &__arrow {
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+    &--left {
+      margin-right: 13px;
+    }
+    &--right {
+      transform: rotate(180deg);
+      margin-left: 13px;
+    }
+  }
+  &__week-text {
+    p {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 120%;
+      text-transform: uppercase;
+    }
+    span {
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 120%;
+      background-color: var(--second-color);
+      padding: 0 7px;
+      border-radius: 7px;
+    }
+  }
+}
